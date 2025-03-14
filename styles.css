@@ -1,21 +1,32 @@
 
 body{
-    padding: 0;
-    font-family: Roboto;
+    margin: 0;
+    font-family: 'Roboto';
     background-color: #1F2837;
-    padding-left: 150px;
-    padding-right: 150px;
 }
-Navigation{
-    display: flex;
-    
-}
+
 ul{
     display:flex;
     gap: 12px;
     list-style-type: none;
     margin-top: 15px;
-    padding: 0;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.Navigation{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 80px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.Navcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 400px;
 }
 .logo{
     font-weight: bold;
@@ -27,8 +38,173 @@ ul{
     font-size: 18px;
     color: #e5e7eb;
 }
-h2 { 
+.Navcontent h2 { 
     font-size: 48px;
     color: #f9faf8;
-    width: 900;
+    font-weight: 900;
+    margin: 0;
+}
+.Navcontent p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+}
+.Navcontent button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882F6 ;
+    margin-top: 5px;
+    color: white;
+    padding: 10px 20px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    flex-shrink: 0;
+}
+.Navcontent button:hover{
+    background-color: #2563eb;
+}
+.image{
+    width: 1000px;
+    height: 210px;
+    background-color: #64748b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.SecondSec{
+    background-color: white;
+    width: 100vw;
+    height: 450px;
+    position: relative;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 90px;
+}
+.Info h4{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    font-style: bold;
+    margin: 30px 0;
+}
+.Content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+
+}
+.Box{
+    width: 120px;
+    height: 120px;
+    padding: 16px;
+    background: white;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    flex-direction: row;
+    gap: 8px;
+    margin: 10px;
+}
+.Content p{
+    flex-direction: row;
+    width: 130px;
+    font-size:14px;
+    padding-top: 130px;
+}
+.ThirdSec{
+    background-color: #e5e7eb;
+    width: 100vw;
+    height: 450px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 0px;
+    gap: 2px;
+}
+.Quote{
+    margin: 0;
+    width:700px;
+    color: #1f2937;
+    font-size: 30px;
+    font-weight: 100px;
+    font-style:italic;
+    margin: 0;
+}
+.Name{
+    text-align: end;
+    margin: 0;
+    font-size: 22px;
+    margin-right: 100px;
+}
+.FourthSec{
+    background-color: white;
+    width: 100vw;
+    height: 250px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.FourthBox{
+    width: 700px;
+    height: 100px;
+    background-color: #3882F6;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    border:none;
+    border-radius: 7px;
+    margin: 70px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.textbox{
+    color: white;
+    justify-content: center;
+    padding: 0;
+    gap: 2px;
+}
+.textbox h5{
+    font-size: 17px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.textbox p{
+    font-size: 13px;
+    margin-top:0;
+    margin-bottom:0;
+}
+.buttonbox button{
+    background-color: #3882F6 ;
+    color: white;
+    width: 110px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    flex-shrink: 0;
+}
+.buttonbox button:hover{
+    background-color: #2563eb;
+}
+.Copyright{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
